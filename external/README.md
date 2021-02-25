@@ -8,3 +8,5 @@ However the only restriction before doing an import is the following
 
 First you need to perform an apply, this allows terraform populate the state with the output variables from the module.
 then after that you can perform the import command. 
+
+Tested with terraform 13+
