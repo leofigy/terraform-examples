@@ -10,3 +10,17 @@ First you need to perform an apply, this allows terraform populate the state wit
 then after that you can perform the import command. 
 
 Tested with terraform 13+
+
+Steps 
+
+```
+  terraform init
+```
+
+```
+  terraform apply
+```
+
+```
+  terraform import <resource_name> <id>
+```
